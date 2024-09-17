@@ -1,9 +1,10 @@
-import becky from './assets/becky.jpg'
-import { useNavigate } from 'react-router-dom'
+import elder from './assets/elder.jpg'
 import send from './assets/sendicon.png'
+import { useNavigate } from 'react-router-dom'
 import back from './assets/back icon.png'
 
-export default function Becky() {
+
+export default function Elder() {
     const navigate = useNavigate();
 
     const handleGoBack = () => {
@@ -17,8 +18,8 @@ export default function Becky() {
                     alt="back icon"
                     className="back-icon"
                     onClick={handleGoBack} />
-                <img src={becky} alt="becky image" className="becky" />
-                <p className="page-header-div-text">Sis Becky</p>
+                <img src={elder} alt="confidence image" className="elder" />
+                <p className="page-header-div-text">Elder</p>
             </div>
 
             <div className="input-container">

@@ -1,5 +1,9 @@
-export default function Group(){
+export default function Group() {
     return (
-        <p>Hello World</p>
+        <>
+            <input type="text" placeholder="Search groups" className="input-group" />
+
+        </>
+
     )
 }

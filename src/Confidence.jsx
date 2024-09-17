@@ -1,9 +1,8 @@
-import becky from './assets/becky.jpg'
+import confidence from './assets/confidence.jpg'
 import { useNavigate } from 'react-router-dom'
 import send from './assets/sendicon.png'
 import back from './assets/back icon.png'
-
-export default function Becky() {
+export default function Confidence() {
     const navigate = useNavigate();
 
     const handleGoBack = () => {
@@ -11,14 +10,15 @@ export default function Becky() {
     }
     return (
         <>
+
             <div className="page-header-div">
                 <img
                     src={back}
                     alt="back icon"
                     className="back-icon"
                     onClick={handleGoBack} />
-                <img src={becky} alt="becky image" className="becky" />
-                <p className="page-header-div-text">Sis Becky</p>
+                <img src={confidence} alt="confidence image" className="confidence" />
+                <p className="page-header-div-text">Sis confidence</p>
             </div>
 
             <div className="input-container">
